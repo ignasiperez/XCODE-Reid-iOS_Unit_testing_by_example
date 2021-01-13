@@ -127,7 +127,7 @@ class AssertYourselfTests: XCTestCase {
     let actual = "actual"
     
     XCTAssertEqual(actual,
-                   "expectd",
+                   "expected",
                    "Expected \"Expected\" but got \"\(actual)\"")
   }
   
