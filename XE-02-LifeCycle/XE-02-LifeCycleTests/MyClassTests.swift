@@ -11,26 +11,34 @@ import XCTest
 
 class MyClassTests: XCTestCase {
 
-//  func test_zero() {
-//    XCTFail("Tests not yet implemented in MyClassTests")
-//  }
+  private var sut: MyClass!
+  
+  
+  override func setUp() {
+    super.setUp()
+    
+    sut = MyClass()
+  }
+  
+  
+  override func tearDown() {
+    sut = nil
+    
+    super.tearDown()
+  }
+  
   
   func test_methodOne() {
-    let sut = MyClass()
-    
     sut.methodOne()
     
-    XCTFail("Failed, yo")
+    // Normally, assert something
   }
   
   
   func test_methodTwo() {
-    let sut = MyClass()
-    
     sut.methodTwo()
     
     // Normally, assert something
-  
   }
 
 }
