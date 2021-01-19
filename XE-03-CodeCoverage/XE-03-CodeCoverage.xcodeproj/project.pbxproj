@@ -13,8 +13,9 @@
 		1D509CA525B3059D00D49F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D509CA325B3059D00D49F22 /* Main.storyboard */; };
 		1D509CA725B305A100D49F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D509CA625B305A100D49F22 /* Assets.xcassets */; };
 		1D509CAA25B305A100D49F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D509CA825B305A100D49F22 /* LaunchScreen.storyboard */; };
-		1D509CB525B305A100D49F22 /* XE_03_CodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D509CB425B305A100D49F22 /* XE_03_CodeCoverageTests.swift */; };
 		1D509CC025B305A200D49F22 /* XE_03_CodeCoverageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D509CBF25B305A200D49F22 /* XE_03_CodeCoverageUITests.swift */; };
+		1D509CD125B3060000D49F22 /* CoveredClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D509CD025B3060000D49F22 /* CoveredClass.swift */; };
+		1D509CDC25B3070C00D49F22 /* CoveredClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D509CDB25B3070C00D49F22 /* CoveredClassTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +45,12 @@
 		1D509CA925B305A100D49F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D509CAB25B305A100D49F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D509CB025B305A100D49F22 /* XE-03-CodeCoverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XE-03-CodeCoverageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D509CB425B305A100D49F22 /* XE_03_CodeCoverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XE_03_CodeCoverageTests.swift; sourceTree = "<group>"; };
 		1D509CB625B305A100D49F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D509CBB25B305A100D49F22 /* XE-03-CodeCoverageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XE-03-CodeCoverageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D509CBF25B305A200D49F22 /* XE_03_CodeCoverageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XE_03_CodeCoverageUITests.swift; sourceTree = "<group>"; };
 		1D509CC125B305A200D49F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D509CD025B3060000D49F22 /* CoveredClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveredClass.swift; sourceTree = "<group>"; };
+		1D509CDB25B3070C00D49F22 /* CoveredClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveredClassTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1D509C9C25B3059D00D49F22 /* XE-03-CodeCoverage */ = {
 			isa = PBXGroup;
 			children = (
+				1D509CD025B3060000D49F22 /* CoveredClass.swift */,
 				1D509C9D25B3059D00D49F22 /* AppDelegate.swift */,
 				1D509C9F25B3059D00D49F22 /* SceneDelegate.swift */,
 				1D509CA125B3059D00D49F22 /* ViewController.swift */,
@@ -113,7 +116,7 @@
 		1D509CB325B305A100D49F22 /* XE-03-CodeCoverageTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D509CB425B305A100D49F22 /* XE_03_CodeCoverageTests.swift */,
+				1D509CDB25B3070C00D49F22 /* CoveredClassTests.swift */,
 				1D509CB625B305A100D49F22 /* Info.plist */,
 			);
 			path = "XE-03-CodeCoverageTests";
@@ -198,6 +201,7 @@
 					};
 					1D509CAF25B305A100D49F22 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 1D509C9925B3059D00D49F22;
 					};
 					1D509CBA25B305A100D49F22 = {
@@ -261,6 +265,7 @@
 				1D509CA225B3059D00D49F22 /* ViewController.swift in Sources */,
 				1D509C9E25B3059D00D49F22 /* AppDelegate.swift in Sources */,
 				1D509CA025B3059D00D49F22 /* SceneDelegate.swift in Sources */,
+				1D509CD125B3060000D49F22 /* CoveredClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D509CB525B305A100D49F22 /* XE_03_CodeCoverageTests.swift in Sources */,
+				1D509CDC25B3070C00D49F22 /* CoveredClassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +479,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 949Z9P63ML;
 				INFOPLIST_FILE = "XE-03-CodeCoverageTests/Info.plist";
@@ -485,6 +491,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ignasiperez.XE-03-CodeCoverageTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XE-03-CodeCoverage.app/XE-03-CodeCoverage";
@@ -496,6 +503,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 949Z9P63ML;
 				INFOPLIST_FILE = "XE-03-CodeCoverageTests/Info.plist";
