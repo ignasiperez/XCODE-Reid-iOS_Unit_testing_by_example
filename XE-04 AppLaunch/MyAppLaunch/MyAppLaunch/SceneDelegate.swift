@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  AppLaunch
+//  MyAppLaunch
 //
 //  Created by ignasiperez.com on 21/01/2021.
 //
