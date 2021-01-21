@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  XE-04-AppLaunch
+//  AppLaunch
 //
-//  Created by ignasiperez.com on 20/01/2021.
+//  Created by ignasiperez.com on 21/01/2021.
 //
 
 import UIKit

@@ -1,13 +1,13 @@
 //
-//  XE_04_AppLaunchUITests.swift
-//  XE-04-AppLaunchUITests
+//  AppLaunchUITests.swift
+//  AppLaunchUITests
 //
-//  Created by ignasiperez.com on 20/01/2021.
+//  Created by ignasiperez.com on 21/01/2021.
 //
 
 import XCTest
 
-class XE_04_AppLaunchUITests: XCTestCase {
+class AppLaunchUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
