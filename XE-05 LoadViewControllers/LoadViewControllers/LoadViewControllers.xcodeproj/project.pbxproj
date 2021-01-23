@@ -13,8 +13,9 @@
 		1DE0CF4825BB68DD001B5A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CF4625BB68DD001B5A2D /* Main.storyboard */; };
 		1DE0CF4A25BB68E1001B5A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CF4925BB68E1001B5A2D /* Assets.xcassets */; };
 		1DE0CF4D25BB68E1001B5A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0CF4B25BB68E1001B5A2D /* LaunchScreen.storyboard */; };
-		1DE0CF5825BB68E1001B5A2D /* LoadViewControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF5725BB68E1001B5A2D /* LoadViewControllersTests.swift */; };
 		1DE0CF6325BB68E1001B5A2D /* LoadViewControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF6225BB68E1001B5A2D /* LoadViewControllersUITests.swift */; };
+		1DE0CF7925BC1BC4001B5A2D /* StoryboardBasedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF7825BC1BC4001B5A2D /* StoryboardBasedVC.swift */; };
+		1DE0CF8125BC2B76001B5A2D /* StoryboardBasedVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF8025BC2B76001B5A2D /* StoryboardBasedVCTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +45,12 @@
 		1DE0CF4C25BB68E1001B5A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE0CF4E25BB68E1001B5A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE0CF5325BB68E1001B5A2D /* LoadViewControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadViewControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DE0CF5725BB68E1001B5A2D /* LoadViewControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersTests.swift; sourceTree = "<group>"; };
 		1DE0CF5925BB68E1001B5A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE0CF5E25BB68E1001B5A2D /* LoadViewControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadViewControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE0CF6225BB68E1001B5A2D /* LoadViewControllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersUITests.swift; sourceTree = "<group>"; };
 		1DE0CF6425BB68E1001B5A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE0CF7825BC1BC4001B5A2D /* StoryboardBasedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedVC.swift; sourceTree = "<group>"; };
+		1DE0CF8025BC2B76001B5A2D /* StoryboardBasedVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedVCTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		1DE0CF3F25BB68DD001B5A2D /* LoadViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1DE0CF4425BB68DD001B5A2D /* ViewController.swift */,
+				1DE0CF7825BC1BC4001B5A2D /* StoryboardBasedVC.swift */,
+				1DE0CF4625BB68DD001B5A2D /* Main.storyboard */,
 				1DE0CF4025BB68DD001B5A2D /* AppDelegate.swift */,
 				1DE0CF4225BB68DD001B5A2D /* SceneDelegate.swift */,
-				1DE0CF4425BB68DD001B5A2D /* ViewController.swift */,
-				1DE0CF4625BB68DD001B5A2D /* Main.storyboard */,
 				1DE0CF4925BB68E1001B5A2D /* Assets.xcassets */,
 				1DE0CF4B25BB68E1001B5A2D /* LaunchScreen.storyboard */,
 				1DE0CF4E25BB68E1001B5A2D /* Info.plist */,
@@ -113,7 +116,7 @@
 		1DE0CF5625BB68E1001B5A2D /* LoadViewControllersTests */ = {
 			isa = PBXGroup;
 			children = (
-				1DE0CF5725BB68E1001B5A2D /* LoadViewControllersTests.swift */,
+				1DE0CF8025BC2B76001B5A2D /* StoryboardBasedVCTests.swift */,
 				1DE0CF5925BB68E1001B5A2D /* Info.plist */,
 			);
 			path = LoadViewControllersTests;
@@ -198,6 +201,7 @@
 					};
 					1DE0CF5225BB68E1001B5A2D = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 1DE0CF3C25BB68DC001B5A2D;
 					};
 					1DE0CF5D25BB68E1001B5A2D = {
@@ -261,6 +265,7 @@
 				1DE0CF4525BB68DD001B5A2D /* ViewController.swift in Sources */,
 				1DE0CF4125BB68DD001B5A2D /* AppDelegate.swift in Sources */,
 				1DE0CF4325BB68DD001B5A2D /* SceneDelegate.swift in Sources */,
+				1DE0CF7925BC1BC4001B5A2D /* StoryboardBasedVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE0CF5825BB68E1001B5A2D /* LoadViewControllersTests.swift in Sources */,
+				1DE0CF8125BC2B76001B5A2D /* StoryboardBasedVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +479,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 949Z9P63ML;
 				INFOPLIST_FILE = LoadViewControllersTests/Info.plist;
@@ -485,6 +491,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ignasiperez.LoadViewControllersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoadViewControllers.app/LoadViewControllers";
@@ -496,6 +503,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 949Z9P63ML;
 				INFOPLIST_FILE = LoadViewControllersTests/Info.plist;
