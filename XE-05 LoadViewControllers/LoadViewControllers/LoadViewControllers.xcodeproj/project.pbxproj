@@ -16,6 +16,9 @@
 		1DE0CF6325BB68E1001B5A2D /* LoadViewControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF6225BB68E1001B5A2D /* LoadViewControllersUITests.swift */; };
 		1DE0CF7925BC1BC4001B5A2D /* StoryboardBasedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF7825BC1BC4001B5A2D /* StoryboardBasedVC.swift */; };
 		1DE0CF8125BC2B76001B5A2D /* StoryboardBasedVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF8025BC2B76001B5A2D /* StoryboardBasedVCTests.swift */; };
+		1DF4DF1825C06E63008A5C3B /* XIBBasedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4DF1625C06E63008A5C3B /* XIBBasedVC.swift */; };
+		1DF4DF1925C06E63008A5C3B /* XIBBasedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF4DF1725C06E63008A5C3B /* XIBBasedVC.xib */; };
+		1DF4DF2325C072C9008A5C3B /* XIBBasedVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4DF2225C072C9008A5C3B /* XIBBasedVCTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		1DE0CF6425BB68E1001B5A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE0CF7825BC1BC4001B5A2D /* StoryboardBasedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedVC.swift; sourceTree = "<group>"; };
 		1DE0CF8025BC2B76001B5A2D /* StoryboardBasedVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedVCTests.swift; sourceTree = "<group>"; };
+		1DF4DF1625C06E63008A5C3B /* XIBBasedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedVC.swift; sourceTree = "<group>"; };
+		1DF4DF1725C06E63008A5C3B /* XIBBasedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBBasedVC.xib; sourceTree = "<group>"; };
+		1DF4DF2225C072C9008A5C3B /* XIBBasedVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedVCTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 			children = (
 				1DE0CF4425BB68DD001B5A2D /* ViewController.swift */,
 				1DE0CF7825BC1BC4001B5A2D /* StoryboardBasedVC.swift */,
+				1DF4DF1625C06E63008A5C3B /* XIBBasedVC.swift */,
+				1DF4DF1725C06E63008A5C3B /* XIBBasedVC.xib */,
 				1DE0CF4625BB68DD001B5A2D /* Main.storyboard */,
 				1DE0CF4025BB68DD001B5A2D /* AppDelegate.swift */,
 				1DE0CF4225BB68DD001B5A2D /* SceneDelegate.swift */,
@@ -117,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				1DE0CF8025BC2B76001B5A2D /* StoryboardBasedVCTests.swift */,
+				1DF4DF2225C072C9008A5C3B /* XIBBasedVCTests.swift */,
 				1DE0CF5925BB68E1001B5A2D /* Info.plist */,
 			);
 			path = LoadViewControllersTests;
@@ -237,6 +246,7 @@
 			files = (
 				1DE0CF4D25BB68E1001B5A2D /* LaunchScreen.storyboard in Resources */,
 				1DE0CF4A25BB68E1001B5A2D /* Assets.xcassets in Resources */,
+				1DF4DF1925C06E63008A5C3B /* XIBBasedVC.xib in Resources */,
 				1DE0CF4825BB68DD001B5A2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE0CF4525BB68DD001B5A2D /* ViewController.swift in Sources */,
+				1DF4DF1825C06E63008A5C3B /* XIBBasedVC.swift in Sources */,
 				1DE0CF4125BB68DD001B5A2D /* AppDelegate.swift in Sources */,
 				1DE0CF4325BB68DD001B5A2D /* SceneDelegate.swift in Sources */,
 				1DE0CF7925BC1BC4001B5A2D /* StoryboardBasedVC.swift in Sources */,
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF4DF2325C072C9008A5C3B /* XIBBasedVCTests.swift in Sources */,
 				1DE0CF8125BC2B76001B5A2D /* StoryboardBasedVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
