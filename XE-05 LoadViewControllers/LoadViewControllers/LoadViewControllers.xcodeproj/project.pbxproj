@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D79953F25C08A6F00CA528F /* CodeBasedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79953E25C08A6F00CA528F /* CodeBasedVC.swift */; };
+		1D79954425C08FF000CA528F /* CodeBasedVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79954325C08FF000CA528F /* CodeBasedVCTests.swift */; };
 		1DE0CF4125BB68DD001B5A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF4025BB68DD001B5A2D /* AppDelegate.swift */; };
 		1DE0CF4325BB68DD001B5A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF4225BB68DD001B5A2D /* SceneDelegate.swift */; };
 		1DE0CF4525BB68DD001B5A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0CF4425BB68DD001B5A2D /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D79953E25C08A6F00CA528F /* CodeBasedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBasedVC.swift; sourceTree = "<group>"; };
+		1D79954325C08FF000CA528F /* CodeBasedVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBasedVCTests.swift; sourceTree = "<group>"; };
 		1DE0CF3D25BB68DD001B5A2D /* LoadViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE0CF4025BB68DD001B5A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE0CF4225BB68DD001B5A2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 				1DE0CF4425BB68DD001B5A2D /* ViewController.swift */,
 				1DE0CF7825BC1BC4001B5A2D /* StoryboardBasedVC.swift */,
 				1DF4DF1625C06E63008A5C3B /* XIBBasedVC.swift */,
+				1D79953E25C08A6F00CA528F /* CodeBasedVC.swift */,
 				1DF4DF1725C06E63008A5C3B /* XIBBasedVC.xib */,
 				1DE0CF4625BB68DD001B5A2D /* Main.storyboard */,
 				1DE0CF4025BB68DD001B5A2D /* AppDelegate.swift */,
@@ -126,6 +131,7 @@
 			children = (
 				1DE0CF8025BC2B76001B5A2D /* StoryboardBasedVCTests.swift */,
 				1DF4DF2225C072C9008A5C3B /* XIBBasedVCTests.swift */,
+				1D79954325C08FF000CA528F /* CodeBasedVCTests.swift */,
 				1DE0CF5925BB68E1001B5A2D /* Info.plist */,
 			);
 			path = LoadViewControllersTests;
@@ -275,6 +281,7 @@
 				1DE0CF4525BB68DD001B5A2D /* ViewController.swift in Sources */,
 				1DF4DF1825C06E63008A5C3B /* XIBBasedVC.swift in Sources */,
 				1DE0CF4125BB68DD001B5A2D /* AppDelegate.swift in Sources */,
+				1D79953F25C08A6F00CA528F /* CodeBasedVC.swift in Sources */,
 				1DE0CF4325BB68DD001B5A2D /* SceneDelegate.swift in Sources */,
 				1DE0CF7925BC1BC4001B5A2D /* StoryboardBasedVC.swift in Sources */,
 			);
@@ -285,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF4DF2325C072C9008A5C3B /* XIBBasedVCTests.swift in Sources */,
+				1D79954425C08FF000CA528F /* CodeBasedVCTests.swift in Sources */,
 				1DE0CF8125BC2B76001B5A2D /* StoryboardBasedVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
